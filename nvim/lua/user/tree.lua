@@ -9,7 +9,7 @@ let g:nvim_tree_show_icons = {
     \ 'files': 1,
     \ 'folder_arrows': 1,
     \ }
-nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <silent> <C-b> :NvimTreeToggle<CR>
 nnoremap <leader>r :NvimTreeRefresh<CR>
 nnoremap <leader>n :NvimTreeFindFile<CR>
 ]]

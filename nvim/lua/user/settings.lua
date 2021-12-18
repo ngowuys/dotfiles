@@ -2,7 +2,6 @@ local opt = vim.opt
 
 -- Settings
 vim.cmd('colorscheme catppuccin')
-opt.relativenumber = true
 opt.number = true
 opt.ignorecase = true
 opt.smartcase = true

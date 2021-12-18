@@ -2,6 +2,7 @@ vim.cmd[[
     call plug#begin('~/.vim/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kyazdani42/nvim-tree.lua'
+    Plug 'yamatsum/nvim-nonicons'
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-path'
@@ -16,7 +17,6 @@ vim.cmd[[
     Plug 'catppuccin/nvim'
     Plug 'rust-lang/rust.vim'
     Plug 'mattn/emmet-vim'
-    Plug 'yamatsum/nvim-nonicons'
     Plug 'mhinz/vim-signify'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'windwp/nvim-autopairs'
