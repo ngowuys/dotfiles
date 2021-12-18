@@ -1,18 +1,16 @@
--- Tree
-vim.cmd[[
-let g:nvim_tree_quit_on_open = 1
-let g:nvim_tree_highlight_opened_files = 1
-let g:nvim_tree_icon_padding = ' '
-let g:nvim_tree_show_icons = {
-    \ 'git': 0,
-    \ 'folders': 1,
-    \ 'files': 1,
-    \ 'folder_arrows': 1,
-    \ }
-nnoremap <silent> <C-b> :NvimTreeToggle<CR>
-nnoremap <leader>r :NvimTreeRefresh<CR>
-nnoremap <leader>n :NvimTreeFindFile<CR>
-]]
+vim.g.nvim_tree_quit_on_open = 1
+vim.g.nvim_tree_highlight_opened_files = 1
+vim.g.nvim_tree_icon_padding = ' '
+vim.g.nvim_tree_show_icons = {
+  git = 0,
+  folders = 1,
+  files = 1,
+  folder_arrows = 1
+}
+
+vim.api.nvim_set_keymap('n', '<C-b>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>r', ':NvimTreeRefresh<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>n', ':NvimTreeFindFile<CR>', {noremap = true, silent = true})
 
 require'nvim-tree'.setup {
   disable_netrw       = true,

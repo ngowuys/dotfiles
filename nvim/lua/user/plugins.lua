@@ -21,9 +21,8 @@ vim.call('plug#begin', '~/.vim/plugged')
   -- Theme
     Plug 'catppuccin/nvim'
   -- Misc
-    Plug 'nvim-lua/popup.nvim'
+    Plug 'Yggdroot/indentLine'      
     Plug 'nvim-lua/plenary.nvim'
-    Plug 'nvim-telescope/telescope.nvim'
     Plug 'mhinz/vim-signify'
     Plug 'windwp/nvim-autopairs'
     Plug 'romgrk/barbar.nvim'

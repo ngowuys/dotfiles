@@ -8,6 +8,3 @@ require'nvim-treesitter.configs'.setup {
     },
 }
 require('nvim-autopairs').setup{}
-
--- Emmet
-vim.g.user_emmet_leader_key = ','
