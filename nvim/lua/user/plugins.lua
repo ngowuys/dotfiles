@@ -11,8 +11,6 @@ vim.call('plug#begin', '~/.vim/plugged')
       Plug 'rust-lang/rust.vim'
       Plug 'saecki/crates.nvim'
       Plug 'simrat39/rust-tools.nvim'
-    -- Emmet
-      Plug 'mattn/emmet-vim'
   -- CMP
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-path'
