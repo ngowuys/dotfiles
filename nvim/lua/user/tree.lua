@@ -36,6 +36,18 @@ require'nvim-tree'.setup {
       error = "E",
     }
   },
+  filters = {
+    dotfiles = false,
+    custom = {
+      ".git",
+      "Cargo.lock",
+      "yarn.lock",
+      "package.lock",
+      ".DS_Store",
+      "node_modules"
+    }
+
+  },
   update_focused_file = {
     enable      = false,
     update_cwd  = false,
