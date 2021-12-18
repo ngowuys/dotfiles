@@ -1,7 +1,5 @@
 require "user.plugins"
 require "lsp.rust"
-require "lsp.svelte"
-require "lsp.tailwind"
 require "user.cmp"
 require "theme.catppuccin"
 require "user.statusline"
